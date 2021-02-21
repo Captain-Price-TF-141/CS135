@@ -1,0 +1,22 @@
+#include <cstdlib>
+#inclde <time.h>
+
+string word;
+string words[100];
+string filename;
+ifstream infile;
+//prompt for input file name
+int amtWords = 0;
+infile >> words[amtWords];
+while(!infile.eof())
+{
+amtWords++;
+infile >> words[amtWords];
+}
+word = words[rand()%amtWords];
+srand(time(null));
+bool matched[256];
+bool checkguess(string word, char guess, bool matched [])
+{
+bool guessed = false;
+}

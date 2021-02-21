@@ -1,0 +1,29 @@
+#include <cmath>-allows to use math functions
+double y = 9.0;
+double result;
+
+result = sqrt (y);
+
+-------------------
+
+pow (2,3) // power 2 to the 3rd = 8
+
+-------------------
+
+ceil (5.8) // rounds up the number
+
+-------------------
+
+log10(x) //log1o(X)
+
+-------------------
+
+exp()x // e^x
+
+-------------------
+
+result = sqrt(2)
+
+-------------------
+
+result = sqrt (pow(3,2));
